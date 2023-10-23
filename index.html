@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3e18b8e052.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav class="flex justify-between p-8 bg-slate-800">
+      <h1 class="text-3xl">Shopping Cart</h1>
+      <i
+        class="text-3xl fa-solid fa-cart-shopping cursor-pointer"
+        id="cart-icon"
+      ><span id="counter"></span></i>
+    </nav>
+    <div id="container" class="flex flex-wrap w-full justify-center"></div>
+    <div
+      id="cart"
+      class="hide absolute top-[100px] right-0 z-[1] bg-slate-800 w-[fit-content] h-[fit-content]"
+    ></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
